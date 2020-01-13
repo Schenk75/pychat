@@ -1,0 +1,15 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "command": "D:\\software\\anaconda\\pythonw.exe",
+    "isShellCommand": true,
+    "args": ["${file}"],
+    "showOutput": "always",
+    //下面是解决输出中文乱码的问题
+     "options": {
+        "env":{
+            "PYTHONIOENCODING": "UTF-8"
+        }
+     }
+}
